@@ -30,6 +30,10 @@
   grid-column: 1 / 2;
 }
 
+.grid-item-2 li{
+  text-align: left;
+}
+
 .grid-item-3 {
   background-color: rgb(21, 255, 0);
   color: #000000;
