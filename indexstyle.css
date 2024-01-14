@@ -13,6 +13,7 @@
 
 body{
   background-color: var(--page_background_color);
+  text-align: center;
 } 
 
 .grid-container {
@@ -25,20 +26,18 @@ body{
 
 .grid-item-1 {
   background-color: var(--item_background_color);
-  color: var(--contrast_color_black);
   grid-row-start: 1;
   grid-row-end: 2;
   grid-column-start: 1;
   grid-column-end: 5;
-  text-align: left;
   border: solid;
-
+}
+.grid-item-1 h1 {
+  margin-top: 0;
 }
 
 .grid-item-2 {
   background-color: var(--item_schere_color);
-  color: var(--contrast_color_black);
-  text-align: center;
   grid-row: 2 / 3;
   grid-column: 1 / 2;
 }
@@ -49,23 +48,18 @@ body{
 
 .grid-item-3 {
   background-color: var(--item_lampe_color);
-  color: var(--contrast_color_black);
-  text-align: center;
   grid-row: 2 / 3;
   grid-column: 2 / 3;
 }
 
 .grid-item-4 {
   background-color: var(--item_hoodie_tan_color);
-  color: var(--contrast_color_black);
-  text-align: center;
   grid-row: 2 / 3;
   grid-column: 3 / 4;
 }
 
 .grid-item-5 {
   background-color: var(--item_notizbuch_color);
-  color: var(--contrast_color_black);
   text-align: left;
   grid-row: 2 / 3;
   grid-column: 4 / 5;
@@ -73,56 +67,48 @@ body{
 
 .grid-item-6 {
   background-color: var(--item_background_color);
-  color: var(--contrast_color_black);
   text-align: left;
   grid-row: 3 / 6;
   grid-column: 1 / 2;
 }
+.grid-item-6 li{
+  list-style-type: none;
+  position:relative;
+  left:-30px;
+}
 
 .grid-item-7 {
   background-color: var(--item_notizbuch_color);
-  color: var(--contrast_color_black);
-  text-align: center;
   grid-row: 3 / 4;
   grid-column: 2 / 3;
 }
 
 .grid-item-8{
   background-color: var(--item_background_color);
-  color: var(--contrast_color_black);
-  text-align: center;
   grid-row: 3 / 4;
   grid-column: 3 / 5;
 }
 
 .grid-item-9 {
   background-color: var(--item_hoodie_tan_color);
-  color: var(--contrast_color_black);
-  text-align: center;
   grid-row: 4 / 5;
   grid-column: 2 / 3;
 }
 
 .grid-item-10{
   background-color: var(--item_background_color);
-  color: var(--contrast_color_black);
-  text-align: center;
   grid-row: 4 / 5;
   grid-column: 3 / 5;
 }
 
 .grid-item-11 {
   background-color: var(--item_lampe_color);
-  color: var(--contrast_color_black);
-  text-align: center;
   grid-row: 5 / 6;
   grid-column: 2 / 3;
 }
 
 .grid-item-12{
   background-color: var(--item_background_color);
-  color: var(--contrast_color_black);
-  text-align: center;
   grid-row: 5 / 6;
   grid-column: 3 / 5;
 }
@@ -130,7 +116,6 @@ body{
 .grid-item-13{
   background-color: var(--contrast_color_black);
   color: var(--contrast_color_white);
-  text-align: center;
   grid-row: 5 / 6;
   grid-column: 1 / 5;
 }
